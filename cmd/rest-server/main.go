@@ -137,7 +137,7 @@ func (app *restServerApp) runRoot(_ *cobra.Command, _ []string) error {
 		if app.Server.ProxyAuthUsername == "" {
 			log.Println("Authentication enabled")
 		} else {
-			log.Println("Proxy Authentication enabled.")
+			log.Println("Proxy Authentication enabled")
 		}
 	}
 
